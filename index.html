@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PRADA</title>
+    <!-- 구글 폰트 CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+
+    <!-- 스위퍼 CSS -->
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <!-- 사용자 CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+  
+    <!-- jquery script -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+      <!-- 스위퍼 script -->
+  <script src="js/swiper.min.js"></script>
+
+    
+    <!-- 사용자 script -->
+    <script src="js/common.js"></script>
+  
+</head>
+<body>
+  <div id="wrap">
+    <!-- 헤더 -->
+    <header class="over_hid">
+      <!-- 로고 화이트 -->
+      <div class="logo_white">
+        <div id="logo"><a href="index.html"><img src="images/logo_bianco.png" alt="프라다"></a></div>
+        <div id="nav">
+          <ul class="over_hid">
+            <li class="serach_btn"><img src="images/serch.png" alt="검색"></li>
+            <li class="menu_btn">menu</li>
+            <li class="ham_menu"><img src="images/ham_menu.png" alt="햄버거메뉴"></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 로고 블랙 -->
+      <div class="logo_black">
+        <div id="logo"><a href="index.html"><img src="images/logo_bianco_b.png" alt="프라다"></a></div>
+        <div id="nav">
+          <ul class="over_hid">
+            <li class="serach_btn"><img src="images/serch_b.png" alt="검색"></li>
+            <li class="menu_btn">menu</li>
+            <li class="ham_menu"><img src="images/ham_menu_b.png" alt="햄버거메뉴"></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+      <!-- 검색창 -->
+      <div id="search" class="over_hid">
+        <div class="logo_black">
+          <div id="logo"><a href="index.html"><img src="images/logo_bianco_b.png" alt="프라다"></a></div>
+          <div id="nav">
+            <ul class="over_hid">
+              <li class="serach_btn"><img src="images/serch_b.png" alt="검색"></li>
+              <li class="menu_btn">menu</li>
+              <li class="ham_menu"><img src="images/ham_menu_b.png" alt="햄버거메뉴"></li>
+            </ul>
+          </div>
+        </div>
+        <div id="sear_sub">
+          <div id="search_top">
+            <ul class="over_hid">
+              <li><input type="text" placeholder="Type here to search"></li>
+              <li><img src="images/serch_b.png"></li>
+            </ul>
+          </div>
+          <div id="search_bottom">
+            <ul class="over_hid">
+              <li>search for</li>
+              <li><input type="checkbox" name="search" value="catalog">E-CATALOG</li>
+              <li><input type="checkbox" name="search" value="archive">A FUTURE ARCHIVE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 네비 서브메뉴 -->
+      <div id="menu" class="over_hid">
+        <!-- 메뉴 -->
+        <div id="menu_sub" class="over_hid">
+          <div id="logo"><a class="over_hid" href="index.html"><img src="images/logo_bianco_b.png" alt="프라다"></a></div>
+          <div id="sub_top" class="over_hid back_whi">
+            <div id="sub_m">
+              <ul>
+                <li><a href="#">E-CATALOG</a></li>
+                <li><a href="#">컬렉션</a></li>
+                <li><a href="#">미래의 아카이브</a></li>
+                <li><a href="#">향수</a></li>
+                <li><a href="#">아이웨어</a></li>
+                <li><a href="#">매장 찾기</a></li>
+              </ul>
+            </div>
+            <!-- 소셜 -->
+            <div id="sns">
+              <ul class="over_hid back_whi">
+                <li><a href="#"><img src="images/facebook.png" alt="페이스북"></a></li>
+                <li><a href="#"><img src="images/twiter.png" alt="트위터"></a></li>
+                <li><a href="#"><img src="images/instar.png" alt="인스타그램"></a></li>
+                <li><a href="#"><img src="images/youtube.png" alt="유투브"></a></li>
+                <li><a href="#">G+</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="close_btn">Χ</div>
+          <div class="line1"></div>
+          <!-- 언어/국가선택 -->
+          <div id="sel_main" class="over_hid back_whi">
+            <ul>
+              <li>_언어</li>
+              <li id="lang_btn">한국어 <img src="images/small_nera.png"></li>
+            </ul>
+            <ul class="back_whi">
+              <li>_국가</li>
+              <li id="cur_btn">MALAYSIA <img src="images/small_nera.png"></li>
+            </ul>
+            <div id="bott_btn"><img src="images/nera.png"></div>
+          </div>
+          <div class="line1"></div>
+
+          <div id="lang" class="back_whi">
+            <ul>
+              <li><a href="#">ENGLISH -</a></li>
+              <li><a href="#"> 简体中文 -</a></li>
+              <li><a href="#"> 繁體中文 -</a></li>
+              <li><a href="#"> 한국어</a></li>
+            </ul>
+          </div>
+          <div id="cur" class="over_hid back_whi">
+            <div id="e_sto" class="over_hid">
+              <h3>E-스토어</h3>
+              <ul>
+                <li><a href="#">AUSTRALIA</a></li>
+                <li><a href="#">AUSTRIA</a></li>
+                <li><a href="#">BELGIUM</a></li>
+                <li><a href="#">CANADA</a></li>
+                <li><a href="#">CHINA</a></li>
+                <li><a href="#">DENMARK</a></li>
+                <li><a href="#">FINLAND</a></li>
+                <li><a href="#">FRANCE</a></li>
+                <li><a href="#">GERMANY</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">GREECE</a></li>
+                <li><a href="#">HONG KONG</a></li>
+                <li><a href="#">IRELAND</a></li>
+                <li><a href="#">ITALY</a></li>
+                <li><a href="#">JAPAN</a></li>
+                <li><a href="#">LUXEMBOURG</a></li>
+                <li><a href="#">MONACO</a></li>
+                <li><a href="#">NETHERLANDS</a></li>
+                <li><a href="#">NEW ZEALAND</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">NORWAY</a></li>
+                <li><a href="#">PORTUGAL</a></li>
+                <li><a href="#">SPAIN</a></li>
+                <li><a href="#">SWEDEN</a></li>
+                <li><a href="#">SWITZERLAND</a></li>
+                <li><a href="#">UNITED ARAB EMIRATES</a></li>
+                <li><a href="#">UNITED KINGDOM</a></li>
+                <li><a href="#">UNITED STATES</a></li>
+              </ul>
+            </div>
+            <div id="our" class="back_whi">
+              <h2>EXPLORE OUR WEBSITE</h2>
+              <ul>
+                <li><a href="#">BRAZIL</a></li>
+                <li><a href="#">MALAYSIA</a></li>
+                <li><a href="#">RUSSIAN FEDERATION</a></li>
+                <li><a href="#">SINGAPORE</a></li>
+                <li><a href="#">SOUTH KOREA</a></li>
+                <li><a href="#">TAIWAN</a></li>
+                <li><a href="#">THAILAND</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">REST OF THE WORLD</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="foot" class="back_whi">
+            <div>
+              <ul>
+                <li><a href="#">FONDAZIONE PRADA</a></li>
+                <li><a href="#">PRADA GROUP</a></li>
+                <li><a href="#">CORPORATE SOCIAL RESPONSIBILITY</a></li>
+                <li><a href="#">LUNAROSSA</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#">법적 고지 사항</a> - <a href="#">개인정보 처리방침</a> - <a href="#">쿠키 정책</a>
+              <h3>© PRADA 2007-2019 | P.IVA 10115350158</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sli_txt">
+        <ul>
+          <li class="on"><a href="menswear.html">Spring Summer 2020 Menswear</a></li>
+          <li><a href="adv.html">365 FW 2019 ADV</a></li>
+          <li><a href="ready.html">Woman</a></li>
+          <li><a href="ready.html">Man</a></li>
+          <li><a href="locoator.html">Store Locator</a></li>
+        </ul>
+      </div>
+      <!-- 메인 슬라이드 -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="sw_sli" src="images/main_banner01.jpg" >
+          </div>
+          <div class="swiper-slide">
+            <img class="sw_sli" src="images/main_banner02.jpg" >
+          </div>
+          <div class="swiper-slide">
+            <img class="sw_sli" src="images/main_banner03.jpg" >
+          </div>
+          <div class="swiper-slide">
+            <img class="sw_sli" src="images/main_banner04.jpg" >
+          </div>
+          <div class="swiper-slide">
+            <img class="sw_sli" src="images/main_banner05.jpg" >
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>        
+    </div>
+  </div>
+</body>
+</html>

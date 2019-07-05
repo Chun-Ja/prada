@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+#wrap{position:absolute;left:20px;bottom:10px;}
+#wrap div{width:500px;height:80px;background:black;color:white;padding:10px;margin:5px;}
+#wrap div p{font-size:14px;font-weight:200;}
+

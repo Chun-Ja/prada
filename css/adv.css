@@ -1,0 +1,45 @@
+@charset "utf-8";
+#wrap{width:100%;height:100%;position:relative;}
+.over_hid{overflow:hidden;}
+.active{font-weight:400;}
+
+/* 헤더 */
+header .logo_black>div:first-child{float:left;position:fixed;top:14px;left:38px;z-index:100;}
+header .logo_black>div:first-child img{width:174px;height:28px;}
+header .logo_black>div:last-child{float:right;position:fixed;top:19px;right:38px;}
+header .logo_black>#nav>ul>li{float:left;margin-right:16px;cursor:pointer;}
+header .logo_black>#nav li:nth-child(2){color:black;font-size:20px;font-weight:500;line-height:15px;}
+header #serach_btn{cursor:pointer;}
+/* 사이드 */
+aside{width:260px;height:100%;position:fixed;top:100px;left:0;padding-left:30px;}
+#main_txt{padding:30px;padding-left:0;}
+#main_txt h1{font-size:26px;font-weight:500;}
+aside nav{margin-top:130px;}
+aside nav a{margin-top:10px;font-size:14px;display:block;}
+#nav #sns{margin-top:220px;}
+#nav #sns h3{font-size:14px;margin-bottom:5px;}
+#nav #sns ul li{display:inline-block;margin-right:15px;}
+
+#nav nav li.on a{font-weight:bolder;}
+#nav nav li.on a::before{content:"_";font-weight:bolder;}
+
+/* 섹션 */
+section{margin:150px 0 0 250px;width:700px;}
+section>div{margin-top:129px;}
+
+/* 로맨스의 해부학 */
+#romance li{margin-top:30px;}
+#romance ul{margin-bottom:50px;}
+
+.vid{margin-bottom:50px;}
+.vid h3{float:right;font-size:14px;font-weight:600;}
+
+#photo ul li{display:inline-block;margin-right:9px;}
+#photo ul li:last-child{margin-right:0;}
+#photo ul img{width:220px;height:150px;margin-bottom:10px;}
+#photo ul img:last-child{margin-right:0;}
+
+section>div>div:last-child{margin-top:50px;}
+#vid_txt ul{margin-bottom:100px;}
+#vid_txt li{font-size:14px;}
+
